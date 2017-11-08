@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wqj.selectfileandeditimage">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".selectpicture.SelectFileExActivity"
+            android:theme="@style/noActionBar"/>
+        <activity
+            android:name=".selectpicture.ShowPictureActivity"
+            android:theme="@style/noActionBar"/>
+        <activity
+            android:name=".selectpicture.PlayActivity"
+            android:theme="@style/noActionBar"/>
+        <activity
+            android:name=".selectpicture.SelectFileActivity"
+            android:theme="@style/noActionBar"/>
+        <activity
+            android:name=".selectpicture.AudioRecorderActivity"
+            android:theme="@style/noActionBar"/>
+
+    </application>
+</manifest>

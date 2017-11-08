@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/iv_filePic"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@mipmap/unknown"/>
+
+        <TextView
+            android:id="@+id/tv_fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_filePic"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="应用文件夹"
+            android:textColor="@color/contents_text"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_countOrSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fileName"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/iv_filePic"
+            android:text="15项"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_lineView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fileName"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/tv_countOrSize"
+            android:text="|"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_lastModified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fileName"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/tv_lineView"
+            android:text="2010-11-12 12:23:00"
+            android:textSize="10sp"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_selected"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp">
+
+            <ImageView
+                android:id="@+id/iv_isSelected"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/by"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

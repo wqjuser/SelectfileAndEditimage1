@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_select_picture_ex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                tools:context="com.wqj.selectfileandeditimage.picchooser.SelectPictureActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMain"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_mainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorMain">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_arrow_back_black_24dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/select_picture"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_selectItem"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true">
+
+                <Button
+                    android:id="@+id/btn_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_btn"
+                    android:text="@string/determine"
+                    android:textColor="@color/colorMain"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <GridView
+        android:id="@+id/gv_select_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0dp"/>
+
+</RelativeLayout>

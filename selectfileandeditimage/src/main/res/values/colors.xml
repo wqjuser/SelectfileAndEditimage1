@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="main_backgroud">#333333</color>
+    <color name="materialcolorpicker__white">#ffffff</color>
+    <color name="materialcolorpicker__red">#f44336</color>
+    <color name="materialcolorpicker__green">#4caf50</color>
+    <color name="materialcolorpicker__blue">#2196f3</color>
+    <color name="materialcolorpicker__grey">#b3b3b3</color>
+    <color name="materialcolorpicker__lightgrey">#d9d9d9</color>
+    <color name="materialcolorpicker__dribble">#ea4c89</color>
+    <color name="materialcolorpicker__dribbledark">#c32361</color>
+    <color name="materialcolorpicker__black">#000000</color>
+    <color name="materialcolorpicker__dialogcolor">#009688</color>
+    <color name="hint_foreground_material_light">#00000000</color>
+    <color name="hint_foreground_material_dark">#00000000</color>
+    <color name="colorMain">#37AEFF</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="selected">#FF4081</color>
+    <color name="light_semi">#10808080</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="line_item">#F7F7F7</color>
+    <color name="line">#C8C8CB</color>
+    <color name="h1">#333333</color>
+    <color name="h2">#4D4D4D</color>
+    <color name="content">#808080</color>
+    <color name="prompt">#9A9A9A</color>
+    <color name="normal">#3F8CEF</color>
+    <color name="them">#3F51B5</color>
+</resources>

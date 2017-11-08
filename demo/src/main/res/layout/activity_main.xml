@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wqj.demo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/test"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"/>
+
+    <com.wqj.selectfileandeditimage.selectpicture.view.SelectFileGridViewEx
+        android:layout_margin="@dimen/dp10"
+        android:id="@+id/pickFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
