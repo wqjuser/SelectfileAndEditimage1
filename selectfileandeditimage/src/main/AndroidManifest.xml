@@ -31,6 +31,10 @@
         <activity
             android:name=".selectpicture.AudioRecorderActivity"
             android:theme="@style/noActionBar"/>
-
+        <activity
+            android:name=".editimage.EditImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noActionBar"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 </manifest>
